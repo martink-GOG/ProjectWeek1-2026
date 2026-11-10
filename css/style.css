@@ -1,4 +1,7 @@
-body{background-color: #f4f4f4ff;}
+body {
+    background-color: #f4f4f4ff;
+}
+
 .container {
     margin: 0 auto;
     padding-left: 20px;
@@ -38,6 +41,7 @@ body{background-color: #f4f4f4ff;}
 .buttonstop a:hover {
     color: #6E6EB4;
 }
+
 .top-footer {
     background: rgb(153, 212, 235);
     ;
@@ -61,4 +65,33 @@ body{background-color: #f4f4f4ff;}
 .bottom-footer-contacts {
     display: flex;
     justify-content: space-around;
+}
+
+/* docenten rooster */
+.schedule {
+    display: flex;
+    justify-content: center;
+    background-color: #f1f1f8ff;
+    gap: 10px;
+    padding: 20px;
+}
+
+.schedule-day>p {
+    text-align: center;
+    font-size:x-large;
+}
+
+.schedule-day {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #464673ff;
+    padding: 10px;
+    border-width: 10px;
+}
+
+.schedule-lesson {
+    background-color: #6e6eb4ff;
+    padding: 4px;
+    border-width: 4px;
 }
