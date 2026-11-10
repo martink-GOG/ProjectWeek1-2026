@@ -40,11 +40,53 @@ body {
 
 .buttonstop a:hover {
     color: #6E6EB4;
+    
 }
 
+.purple {
+    color:#464673;
+}
+
+.purple h1{
+    display: flex;
+    justify-content: center;
+}
+
+.purple a{
+    font-size: 20px;
+}
+
+.links a {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 8px;
+  margin-top: 10px;
+}
+
+.progress{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.progress a
+{
+    display: block;
+}
+
+.task{
+font-size: 20px;
+
+
+}
+
+.task a
+{
+    display: block;
+}
+   
 .top-footer {
     background: rgb(153, 212, 235);
-    ;
+    
     padding: 30px;
     color: #464673ff;
     font-weight: bold;
