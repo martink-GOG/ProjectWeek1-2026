@@ -1,3 +1,10 @@
+*{
+    color: black;
+}
+.undotted-list{
+    list-style-type: none;
+}
+
 .top-footer {
     background: rgb(153, 212, 235);
     ;
@@ -21,4 +28,54 @@
 .bottom-footer-contacts {
     display: flex;
     justify-content: space-around;
+    color: #f4f4f4ff;
+}
+
+.container-students{
+    display: flex;
+    justify-content: space-between;
+}
+strong{
+    color: #464673;
+}
+
+.info-text{
+    max-width: 500px;
+    margin-left: 30px;
+}
+.info-key-words{
+    margin-top: 40px;
+    border-style: groove;
+    border-color: #464673;
+    max-width: 300px;
+    max-height: 500px;
+}
+.info-key-words li{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.left-gap{
+    margin-left: 50px;
+}
+
+#purple-button{
+    background-color: #6e63b4;
+    max-width: 200px;
+    padding: 20px;
+    border-radius: 50px;
+}
+.day-forum{
+    max-width: 255px;
+    border-style: groove;
+    border-radius: 12px;
+    width: 100%;
+}
+
+.container-days{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    
 }
