@@ -37,3 +37,27 @@
 .buttonstop a:hover {
     color: #6E6EB4;
 }
+.top-footer {
+    background: rgb(153, 212, 235);
+    ;
+    padding: 30px;
+    color: #464673ff;
+    font-weight: bold;
+}
+
+.bottom-footer {
+    background-color: #464673;
+    padding: 50px;
+    color: #f4f4f4ff;
+    font-weight: bold;
+}
+
+.top-footer-contacts {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom-footer-contacts {
+    display: flex;
+    justify-content: space-around;
+}
