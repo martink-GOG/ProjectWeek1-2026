@@ -7,7 +7,6 @@
 
 .top-footer {
     background: rgb(153, 212, 235);
-    ;
     padding: 30px;
     color: #464673ff;
     font-weight: bold;
@@ -77,5 +76,4 @@ strong{
     display: flex;
     justify-content: space-between;
     margin-top: 25px;
-    
 }
