@@ -142,6 +142,7 @@ strong {
     text-decoration: none;
     margin-bottom: 8px;
     margin-top: 10px;
+    max-width: 500px;
 }
 
 .progress {
@@ -188,4 +189,24 @@ strong {
     background-color: #6e6eb4ff;
     padding: 4px;
     border-width: 4px;
+}
+.section-bedrijven{
+    margin: 20px 0px;
+}
+.section-bedrijven>p{
+    font-size: 40px;
+    text-align: center;
+    color: #464673;
+}
+.bedrijven{
+    display: flex;
+    justify-content: space-around;
+}
+.bedrijf{
+    background-color:#6e6eb4ff;
+    padding: 10px;
+    border-radius: 10px;
+}
+.bedrijf>img{
+    width: 200px;
 }
