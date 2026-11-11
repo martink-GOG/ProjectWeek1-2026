@@ -278,3 +278,18 @@ strong {
 .bedrijf>img{
     width: 200px;
 }
+.section-eisen-voor-docent{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px;
+}
+.eisen-voor-docent{
+    border-style: groove;
+    border-color: #464673;
+    padding: 10px;
+}
+.title-eisen-docent{
+    font-size: 30px;
+    color: #464673;
+    text-align: center;
+}
