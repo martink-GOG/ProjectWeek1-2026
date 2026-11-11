@@ -8,14 +8,17 @@ body{
 
 .top-footer {
     background: rgb(153, 212, 235);
-    padding: 30px;
+    padding: 20px;
     color: #464673ff;
     font-weight: bold;
+}
+.top-footer a{
+    margin: 16px 16px;
 }
 
 .bottom-footer {
     background-color: #464673;
-    padding: 50px;
+    padding: 80px;
     color: #f4f4f4ff;
     font-weight: bold;
 }
@@ -29,6 +32,22 @@ body{
     display: flex;
     justify-content: space-around;
     color: #f4f4f4ff;
+}
+
+.bottom-footer-contacts a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.top-footer-contacts a{
+    
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
 }
 
 .container-students {
@@ -188,4 +207,53 @@ strong {
     background-color: #6e6eb4ff;
     padding: 4px;
     border-width: 4px;
+}
+.image-homepage{
+    border-radius: 20px;
+    z-index: -1;
+}
+
+.homepage-top-image-text{
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-style: groove;
+    text-wrap: balance;
+    background-color: #6e63b4;
+    color: white;
+    border-radius: 30px;
+    margin-bottom: -50px;
+    z-index: 1;
+}
+
+#top-image-text-block{
+    margin-left: 10px;
+}
+
+.container-homepage{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-bottom-image-text{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.bottom-image-block{
+    max-width: 200px;
+    border-style: groove;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.bottom-image-block p{
+    margin-left: 10px;
+}
+
+.h3-homepage{
+    margin-left: 10px;
 }
