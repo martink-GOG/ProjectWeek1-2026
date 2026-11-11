@@ -2,8 +2,8 @@
     list-style-type: none;
 }
 
-body{
-    background-color:#f4f4f4ff;
+body {
+    background-color: #f4f4f4ff;
 }
 
 .top-footer {
@@ -11,8 +11,13 @@ body{
     padding: 20px;
     color: #464673ff;
     font-weight: bold;
+    margin-top: 200px;
+    border-style: groove;
+    border-width: 10px;
+    border-color: #153f4f5b;
 }
-.top-footer a{
+
+.top-footer a {
     margin: 16px 16px;
 }
 
@@ -21,6 +26,9 @@ body{
     padding: 80px;
     color: #f4f4f4ff;
     font-weight: bold;
+    border-style: groove;
+    border-width: 10px;
+    border-color: #1a011c5c;
 }
 
 .top-footer-contacts {
@@ -34,7 +42,7 @@ body{
     color: #f4f4f4ff;
 }
 
-.bottom-footer-contacts a{
+.bottom-footer-contacts a {
     color: black;
     text-decoration: none;
     font-size: 14px;
@@ -42,8 +50,7 @@ body{
     cursor: pointer;
 }
 
-.top-footer-contacts a{
-    
+.top-footer-contacts a {
     text-decoration: none;
     font-size: 14px;
     font-weight: 600;
@@ -89,6 +96,22 @@ strong {
     border-radius: 50px;
 }
 
+#purple-button a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+}
+
+.day-forum a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #2f0a32;
+}
+
 .day-forum {
     max-width: 255px;
     border-style: groove;
@@ -98,8 +121,9 @@ strong {
 
 .container-days {
     display: flex;
-    justify-content: space-between;
-    margin-top: 25px;
+    justify-content: space-around;
+    margin-top: 200px;
+    margin-bottom: 200px;
 }
 
 .container {
@@ -188,6 +212,7 @@ strong {
     background-color: #f1f1f8ff;
     gap: 10px;
     padding: 20px;
+
 }
 
 .schedule-day>p {
@@ -209,12 +234,13 @@ strong {
     padding: 4px;
     border-width: 4px;
 }
-.image-homepage{
+
+.image-homepage {
     border-radius: 20px;
     z-index: -1;
 }
 
-.homepage-top-image-text{
+.homepage-top-image-text {
     max-width: 300px;
     display: flex;
     align-items: center;
@@ -228,34 +254,34 @@ strong {
     z-index: 1;
 }
 
-#top-image-text-block{
+#top-image-text-block {
     margin-left: 10px;
 }
 
-.container-homepage{
+.container-homepage {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.container-bottom-image-text{
+.container-bottom-image-text {
     display: flex;
     flex-direction: row;
     gap: 100px;
 }
 
-.bottom-image-block{
+.bottom-image-block {
     max-width: 200px;
     border-style: groove;
     justify-content: center;
     margin-bottom: 50px;
 }
 
-.bottom-image-block p{
+.bottom-image-block p {
     margin-left: 10px;
 }
 
-.h3-homepage{
+.h3-homepage {
     margin-left: 10px;
 }
 .section-companys{
@@ -265,6 +291,7 @@ strong {
     font-size: 40px;
     text-align: center;
     color: #464673;
+    margin-top: 200px;
 }
 .companys {
     display: flex;
