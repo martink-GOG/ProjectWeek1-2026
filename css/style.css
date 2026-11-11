@@ -1,8 +1,9 @@
-*{
-    color: black;
-}
-.undotted-list{
+.undotted-list {
     list-style-type: none;
+}
+
+body{
+    background-color:#f4f4f4ff;
 }
 
 .top-footer {
@@ -30,49 +31,53 @@
     color: #f4f4f4ff;
 }
 
-.container-students{
+.container-students {
     display: flex;
     justify-content: space-between;
 }
-strong{
+
+strong {
     color: #464673;
 }
 
-.info-text{
+.info-text {
     max-width: 500px;
     margin-left: 30px;
 }
-.info-key-words{
+
+.info-key-words {
     margin-top: 40px;
     border-style: groove;
     border-color: #464673;
     max-width: 300px;
     max-height: 500px;
 }
-.info-key-words li{
+
+.info-key-words li {
     display: flex;
     flex-direction: row;
     gap: 20px;
 }
 
-.left-gap{
+.left-gap {
     margin-left: 50px;
 }
 
-#purple-button{
+#purple-button {
     background-color: #6e63b4;
     max-width: 200px;
     padding: 20px;
     border-radius: 50px;
 }
-.day-forum{
+
+.day-forum {
     max-width: 255px;
     border-style: groove;
     border-radius: 12px;
     width: 100%;
 }
 
-.container-days{
+.container-days {
     display: flex;
     justify-content: space-between;
     margin-top: 25px;
@@ -116,73 +121,44 @@ strong{
 
 .buttonstop a:hover {
     color: #6E6EB4;
-    
+
 }
 
 .purple {
-    color:#464673;
+    color: #464673;
 }
 
-.purple h1{
+.purple h1 {
     display: flex;
     justify-content: center;
 }
 
-.purple a{
+.purple a {
     font-size: 20px;
 }
 
 .links a {
-  display: block;
-  text-decoration: none;
-  margin-bottom: 8px;
-  margin-top: 10px;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 8px;
+    margin-top: 10px;
 }
 
-.progress{
+.progress {
     font-size: 20px;
     margin-bottom: 30px;
 }
 
-.progress a
-{
+.progress a {
     display: block;
 }
 
-.task{
-font-size: 20px;
-
-
+.task {
+    font-size: 20px;
 }
 
-.task a
-{
+.task a {
     display: block;
-}
-   
-.top-footer {
-    background: rgb(153, 212, 235);
-    
-    padding: 30px;
-    color: #464673ff;
-    font-weight: bold;
-}
-
-.bottom-footer {
-    background-color: #464673;
-    padding: 50px;
-    color: #f4f4f4ff;
-    font-weight: bold;
-}
-
-.top-footer-contacts {
-    display: flex;
-    justify-content: space-around;
-}
-
-.bottom-footer-contacts {
-    display: flex;
-    justify-content: space-around;
 }
 
 /* docenten rooster */
@@ -196,7 +172,7 @@ font-size: 20px;
 
 .schedule-day>p {
     text-align: center;
-    font-size:x-large;
+    font-size: x-large;
 }
 
 .schedule-day {
