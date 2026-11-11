@@ -258,38 +258,67 @@ strong {
 .h3-homepage{
     margin-left: 10px;
 }
-.section-bedrijven {
+.section-companys{
     margin: 20px 0px;
 }
-.section-bedrijven>p{
+.section-companys>p{
     font-size: 40px;
     text-align: center;
     color: #464673;
 }
-.bedrijven{
+.companys {
     display: flex;
     justify-content: space-around;
 }
-.bedrijf{
+.company{
     background-color:#6e6eb4ff;
     padding: 10px;
     border-radius: 10px;
 }
-.bedrijf>img{
+.company>img{
     width: 200px;
 }
-.section-eisen-voor-docent{
+.section-requierment-for-teacher{
     display: flex;
     justify-content: space-around;
     margin: 20px 0px;
 }
-.eisen-voor-docent{
+.requierment-for-teacher{
     border-style: groove;
     border-color: #464673;
     padding: 10px;
 }
-.title-eisen-docent{
+.title-requierment-teacher{
     font-size: 30px;
     color: #464673;
     text-align: center;
+}
+.programing-langue{
+    border-style: groove;
+    border-color: #464673;
+    background-color: white;
+    padding: 10px;
+    margin: 20px 0px;
+}
+.programing-langue>img{
+    width: 320px;
+    height: 360px;
+}
+.programing-langueges{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.section-programing-langueges {
+    margin: 20px 0px;
+}
+.section-programing-langueges>p {
+    font-size: 40px;
+    text-align: center;
+    color: #464673
+}
+.programing-langueges-title{
+    font-size: 20px;
+    text-align: center;
+    color: #464673;
 }
