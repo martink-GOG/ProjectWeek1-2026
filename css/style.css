@@ -284,67 +284,81 @@ strong {
 .h3-homepage {
     margin-left: 10px;
 }
-.section-companys{
+
+.section-companys {
     margin: 20px 0px;
 }
-.section-companys>p{
+
+.section-companys>p {
     font-size: 40px;
     text-align: center;
     color: #464673;
     margin-top: 200px;
 }
+
 .companys {
     display: flex;
     justify-content: space-around;
 }
-.company{
-    background-color:#6e6eb4ff;
+
+.company {
+    background-color: #6e6eb4ff;
     padding: 10px;
     border-radius: 10px;
 }
-.company>img{
+
+.company>img {
     width: 200px;
 }
-.section-requierment-for-teacher{
+
+.section-requierment-for-teacher {
     display: flex;
     justify-content: space-around;
     margin: 20px 0px;
 }
-.requierment-for-teacher{
+
+.requierment-for-teacher {
     border-style: groove;
     border-color: #464673;
     padding: 10px;
 }
-.title-requierment-teacher{
+
+.title-requierment-teacher {
     font-size: 30px;
     color: #464673;
     text-align: center;
 }
-.programing-langue{
+
+.programing-langue {
     border-style: groove;
     border-color: #464673;
     background-color: white;
     padding: 10px;
     margin: 20px 0px;
 }
-.programing-langue>img{
+
+.programing-langue>img {
     width: 320px;
     height: 360px;
 }
-.programing-langueges{
+
+.programing-langueges {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
 .section-programing-langueges {
     margin: 20px 0px;
 }
+
 .section-programing-langueges>p {
     font-size: 40px;
     text-align: center;
     color: #464673
 }
-.programing-langueges-title{
+
+.programing-langueges-title {
     font-size: 20px;
     text-align: center;
     color: #464673;
